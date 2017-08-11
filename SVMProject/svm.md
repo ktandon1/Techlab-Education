@@ -14,7 +14,7 @@ Support Vector Machine (SVM) is a supervised Machine Learning technique that is 
 
 SVM works by defining a **separating hyperplane** between the data classes. A new data point will be classified based on which **side** of the plane it falls on. If there are two features being compared in each class (i.e. x and y position), then the separating hyperplane is a line. In the example below, the method learns the best possible separation between the blue and yellow data. A new data point on the right side of the line would be classified as being from the ‘yellow’ class while a new data point on the left side of the line would be ‘blue’.
 
-[SVM Diagram](SVMProject/svm_diagram.png)
+[SVM Diagram](https://raw.githubusercontent.com/ktandon1/Techlab-Education/master/SVMProject/svm_diagram.png)
 
 There’s a lot of math behind this that you can look into if you are curious. SVM works by **maximizing** the distance between a line and the closest data point, also known as the **margin**. The best line is one that has the **largest** margin. 
 
@@ -569,7 +569,7 @@ public class SVM
 }
 ```
 +++
-If you are to print classifier.toString() now, you will see something like [this](C:\Users\Kaushik\Documents\SVM\classifierString.png)
+If you are to print classifier.toString() now, you will see something like [this](https://raw.githubusercontent.com/ktandon1/Techlab-Education/master/SVMProject/classifierString.png)
 
 The Kernel used line just means that a linear classifier is being used as intended. There are two classes: “true” and “false” which refer to if the particle is good or not good. 
 The most important lines is the equation 0.0049X + 0.004Y -2.054 = 0. You will need to extract the coefficients and the intercept from that equation by splitting the lines from classifier.toString(). 
